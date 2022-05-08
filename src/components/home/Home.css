@@ -1,0 +1,174 @@
+.main-home-div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 60px;
+  padding: 50px 0;
+}
+
+.main-home-div .img-div img {
+  width: 300px;
+}
+
+.main-home-div .right-side-div {
+  max-width: 450px;
+  display: list-item;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.main-home-div .right-side-div .form-div {
+  border: 1px solid #d8d8d8;
+  padding: 10px 60px;
+  display: list-item;
+  list-style: none;
+}
+
+.main-home-div .right-side-div .form-div .instagram-logo {
+  width: 170px;
+  margin: 40px 0;
+}
+
+.main-home-div .right-side-div .form-div .input-fields {
+  display: list-item;
+}
+
+.main-home-div .right-side-div .form-div .input-fields input[type=text], .main-home-div .right-side-div .form-div .input-fields [type=password] {
+  width: 300px;
+  font-size: 15px;
+  padding: 10px;
+  padding-left: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #cbcbcb;
+}
+
+.main-home-div .right-side-div .form-div .input-fields ::-webkit-input-placeholder {
+  color: #b4b4b4;
+}
+
+.main-home-div .right-side-div .form-div .input-fields :-ms-input-placeholder {
+  color: #b4b4b4;
+}
+
+.main-home-div .right-side-div .form-div .input-fields ::-ms-input-placeholder {
+  color: #b4b4b4;
+}
+
+.main-home-div .right-side-div .form-div .input-fields ::placeholder {
+  color: #b4b4b4;
+}
+
+.main-home-div .right-side-div .form-div .input-fields button {
+  width: 325px;
+  font-size: 18px;
+  border: none;
+  background-color: #b2dffc;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.main-home-div .right-side-div .form-div .input-fields button:hover {
+  cursor: pointer;
+}
+
+.main-home-div .right-side-div .form-div .or-p-hr {
+  margin: 20px 0;
+  color: rgba(207, 207, 207, 0.8);
+  font-size: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-home-div .right-side-div .form-div .or-p-hr span {
+  color: #afafaf;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main-home-div .right-side-div .form-div .center-link-text {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-home-div .right-side-div .form-div .center-link-text .facebook-link {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-home-div .right-side-div .form-div .center-link-text .facebook-link img {
+  border-radius: 2px;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.main-home-div .right-side-div .form-div .center-link-text .facebook-link .facebok {
+  font-weight: bold;
+  font-size: 17px;
+  color: #3a559f;
+}
+
+.main-home-div .right-side-div .form-div .center-link-text .forget {
+  color: #1f3779;
+  margin: 15px 0;
+}
+
+.main-home-div .right-side-div .signup-div {
+  border: 1px solid #d8d8d8;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.main-home-div .right-side-div .signup-div .signup-link {
+  font-size: 17px;
+}
+
+.main-home-div .right-side-div .signup-div .signup-link span a {
+  text-decoration: none;
+  color: #009ff7;
+}
+
+.main-home-div .right-side-div .stores-div {
+  display: list-item;
+  list-style: none;
+}
+
+.main-home-div .right-side-div .stores-div p {
+  margin: 10px 0;
+}
+
+.main-home-div .right-side-div .stores-div .stores-logo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+}
+
+.main-home-div .right-side-div .stores-div .stores-logo img {
+  height: 40px;
+}
+/*# sourceMappingURL=Home.css.map */

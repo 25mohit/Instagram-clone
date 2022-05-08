@@ -1,0 +1,51 @@
+.main-header-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0;
+  gap: 150px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.main-header-div img {
+  width: 120px;
+}
+
+.main-header-div input[type=text] {
+  border: none;
+  padding: 10px 15px;
+  background-color: #ececec;
+  border-radius: 4px;
+}
+
+.main-header-div .functions-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.main-header-div .functions-div img {
+  width: 25px;
+}
+
+.main-header-div .functions-div .profile-photo {
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.main-header-div .functions-div img:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=Header.css.map */

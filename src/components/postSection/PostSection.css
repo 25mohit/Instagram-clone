@@ -1,0 +1,64 @@
+.post-section-main-div {
+  display: list-item;
+  list-style: none;
+  padding: 30px 0;
+  background-color: #fafafa;
+}
+
+.post-section-main-div .toogle-bar {
+  border-top: 1px solid #f1f1f1;
+  padding: 20px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+.post-section-main-div .toogle-bar .toofle-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post-section-main-div .toogle-bar .toofle-icons img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.post-section-main-div .toogle-bar .toofle-icons .toogle-text {
+  color: gray;
+  font-size: 12px;
+}
+
+.post-section-main-div .toogle-bar .toofle-icons:hover {
+  cursor: pointer;
+}
+
+.post-section-main-div .user-photos-section-div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 150px;
+}
+
+.post-section-main-div .user-photos-section-div .img-class {
+  width: 300px;
+  /* width of container */
+  height: 300px;
+  /* height of container */
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=PostSection.css.map */

@@ -1,0 +1,33 @@
+.main-header-div{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 150px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    img{
+        width: 120px;
+    }
+    input[type=text]{
+        border: none;
+        padding: 10px 15px;
+        background-color: rgb(236, 236, 236);
+        border-radius: 4px;
+    }
+    .functions-div{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        user-select: none;
+        img{
+            width: 25px;
+        }
+        .profile-photo{
+            border-radius: 50%;
+            border: 2px solid black;
+            padding: 2px;
+        }
+        img:hover{
+            cursor: pointer;
+        }
+    }
+}

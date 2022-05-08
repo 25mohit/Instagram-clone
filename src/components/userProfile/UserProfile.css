@@ -1,0 +1,90 @@
+.user-profile-main-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+  gap: 100px;
+  background-color: #fafafa;
+}
+
+.user-profile-main-div .left-side-div img {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.user-profile-main-div .right-side-div {
+  display: list-item;
+  list-style: none;
+}
+
+.user-profile-main-div .right-side-div .rightside-row-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.user-profile-main-div .right-side-div .rightside-row-first .user-name {
+  font-size: 20px;
+  color: #5c5c5c;
+}
+
+.user-profile-main-div .right-side-div .rightside-row-first a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  padding: 2px 10px;
+  font-size: 10px;
+  border: 1px solid #cecece;
+}
+
+.user-profile-main-div .right-side-div .rightside-row-first img {
+  width: 20px;
+}
+
+.user-profile-main-div .right-side-div .rightside-row-first img:hover {
+  cursor: pointer;
+}
+
+.user-profile-main-div .right-side-div .rightside-row-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 55px;
+  margin-top: 30px;
+}
+
+.user-profile-main-div .right-side-div .rightside-row-second .stats-text {
+  color: black;
+  font-weight: 500;
+}
+
+.user-profile-main-div .right-side-div .rightside-row-second .stats-text span {
+  color: gray;
+}
+
+.user-profile-main-div .right-side-div .rightside-row-third {
+  display: list-item;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.user-profile-main-div .right-side-div .rightside-row-third .user-full-name {
+  color: #3e3d3d;
+  letter-spacing: 2px;
+}
+
+.user-profile-main-div .right-side-div .rightside-row-third .user-detail-text {
+  letter-spacing: 5px;
+  line-height: 23px;
+}
+/*# sourceMappingURL=UserProfile.css.map */

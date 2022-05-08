@@ -1,0 +1,122 @@
+.main-home-div{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 50px 0;
+    .img-div{
+        img{
+            width: 300px;
+        }
+    }
+    .right-side-div{
+        max-width: 450px;
+        display: list-item;
+        list-style: none;
+        justify-content: center;
+        text-align: center;
+            .form-div{
+                border: 1px solid rgb(216, 216, 216);
+                padding: 10px 60px;
+                display: list-item;
+                list-style: none;
+                .instagram-logo{
+                    width: 170px;
+                    margin: 40px 0;
+                }
+                .input-fields{
+                    display: list-item;
+                        input[type=text],[type=password]{
+                                width: 300px;
+                                font-size: 15px;
+                                padding: 10px;
+                                padding-left: 15px;
+                                border-radius: 5px;
+                                margin-bottom: 10px;
+                                border: 1px solid rgb(203, 203, 203);
+                        }
+                        ::placeholder{
+                            color: rgb(180, 180, 180);
+                        }
+                        button{
+                                width: 325px;
+                                font-size: 18px;
+                                border: none;
+                                background-color: rgb(178,223,252);
+                                color: white;
+                                border-radius: 5px;
+                                font-weight: bold;
+                                padding: 10px 20px;
+                        }
+                        button:hover{
+                            cursor: pointer;
+                        }
+
+                }
+                .or-p-hr{
+                    margin: 20px 0;
+                    color: rgba(207, 207, 207, 0.8);
+                    font-size: 10px;
+                    align-items: center;
+                    span{
+                        color: rgb(175, 175, 175);
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                }
+                .center-link-text{
+                    justify-content: center;
+                    .facebook-link{
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+                        img{
+                            border-radius: 2px;
+                            margin-right: 10px;
+                            width: 20px;
+                        }
+                        .facebok{
+                            font-weight: bold;
+                            font-size: 17px;
+                            color: rgb(58,85,159);
+                        }
+                    }
+                    .forget{
+                        color: rgb(31, 55, 121);
+                        margin: 15px 0;
+                    }
+                }
+            }
+            .signup-div{
+                border: 1px solid rgb(216, 216, 216);
+                padding: 20px;
+                margin:10px 0;
+                .signup-link{
+                    font-size: 17px;
+                        span{
+                            a{
+                                text-decoration: none;
+                                color: rgb(0,159,247);
+                                // font-weight: bold;
+                            }
+                        }
+                }
+            }
+            .stores-div{
+                display: list-item;
+                list-style: none;
+                p{
+                    margin: 10px 0;
+                }
+                .stores-logo{
+                        justify-content: center;
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 15px;
+                        img{
+                            height: 40px;
+                        }
+                    }
+            }
+    }
+}
